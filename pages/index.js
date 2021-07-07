@@ -14,7 +14,6 @@ export default function Home() {
       </div>
 
       <footer>
-        <p>Powered by &#10084;&#65039; and &#9749;</p>
         <div className="contact">
           <ContactIcon
             link="https://discord.gg/yKK7JbwU"
