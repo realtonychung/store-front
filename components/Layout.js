@@ -18,6 +18,9 @@ export default function Layout({ children }) {
           {children}
           <style jsx>
             {`
+              main {
+                height: 100vh;
+              }
               .container {
                 min-height: 100vh;
                 padding: 1 1.5rem;
