@@ -3,6 +3,7 @@ import { FaDiscord } from 'react-icons/fa';
 import ContactIcon from "../components/ContactIcon";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
+import colors from "../constants/colors";
 
 export default function Home() {
   return (
@@ -21,9 +22,18 @@ export default function Home() {
           />
         </div>
         <p>&copy; FHS 2021</p>
+        <div className="bottom-accent">
+
+        </div>
       </footer>
 
       <style jsx>{`
+        .bottom-accent {
+          width: 100%;
+          height: 25px;
+          background-color: ${colors.secondary};
+          border-radius: 5px;
+        }
         .contact {
           height: 30px;
           display: flex;
@@ -41,10 +51,10 @@ export default function Home() {
         footer {
           margin-top: 2rem;
           width: 100%;
-          border-top: 1px solid black;
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
+          
           align-items: flex-end;
         }
 
