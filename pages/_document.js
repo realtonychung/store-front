@@ -1,6 +1,7 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
 const prod = process.env.NODE_ENV === "production";
+
 
 class AnimeDocument extends Document {
   render() {
@@ -28,8 +29,8 @@ class AnimeDocument extends Document {
           />
         </Head>
         <body>
-          <Main />
-          <NextScript />
+          <Main /> 
+           <NextScript /> 
         </body>
       </Html>
     ) : (
